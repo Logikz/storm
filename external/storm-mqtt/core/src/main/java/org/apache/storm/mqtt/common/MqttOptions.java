@@ -50,7 +50,7 @@ public class MqttOptions implements Serializable {
         return clientId;
     }
 
-    public void setClientId(){
+    public void setClientId(String clientId){
         this.clientId = clientId;
     }
 
