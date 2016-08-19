@@ -44,6 +44,16 @@ public class MqttOptions implements Serializable {
 
     private int qos = 1;
 
+    private String clientId = null;
+
+    public String getClientId(){
+        return clientId;
+    }
+
+    public void setClientId(){
+        this.clientId = clientId;
+    }
+
     public String getUrl() {
         return url;
     }
